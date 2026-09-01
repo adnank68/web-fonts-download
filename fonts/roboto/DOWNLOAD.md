@@ -86,7 +86,7 @@ body {
 ## Available Weights
 
 | Weight | Font File |
-|--------|-----------|
+|--------|----------|
 | 300 | Roboto-Light |
 | 400 | Roboto-Regular |
 | 500 | Roboto-Medium |
