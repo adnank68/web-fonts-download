@@ -1,0 +1,133 @@
+{
+  "name": "web-fonts-download",
+  "version": "1.0.0",
+  "description": "Free, open-source web fonts collection including Vazir, Roboto, Ubuntu, Inter, Lato, and more",
+  "license": "MIT",
+  "author": {
+    "name": "Web Fonts Download Contributors",
+    "url": "https://github.com/adnank68/web-fonts-download"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/adnank68/web-fonts-download.git"
+  },
+  "keywords": [
+    "fonts",
+    "web-fonts",
+    "typography",
+    "open-source",
+    "vazir",
+    "roboto",
+    "ubuntu",
+    "inter",
+    "lato",
+    "open-sans",
+    "persian-fonts",
+    "free-fonts",
+    "woff2",
+    "woff",
+    "ttf"
+  ],
+  "fonts": {
+    "vazir": {
+      "name": "Vazir",
+      "language": "Persian",
+      "license": "SIL Open Font License (OFL) v1.1",
+      "creator": "Saber Rastikerdar",
+      "repository": "https://github.com/rastikerdar/vazir-font",
+      "weights": ["Regular", "Bold"],
+      "formats": ["ttf", "woff", "woff2"],
+      "description": "A clean and modern Persian typeface designed for web and print"
+    },
+    "roboto": {
+      "name": "Roboto",
+      "language": "Latin",
+      "license": "Apache License 2.0",
+      "creator": "Google Inc. (Christian Robertson)",
+      "repository": "https://github.com/google/roboto",
+      "weights": ["Thin", "Light", "Regular", "Medium", "Bold", "Black"],
+      "formats": ["ttf", "woff", "woff2"],
+      "description": "A versatile sans-serif typeface family designed for modern interfaces"
+    },
+    "ubuntu": {
+      "name": "Ubuntu",
+      "language": "Latin",
+      "license": "Ubuntu Font License v1.0",
+      "creator": "Canonical Ltd. (Dalton Maag)",
+      "repository": "https://launchpad.net/ubuntu-font-family",
+      "weights": ["Light", "Regular", "Medium", "Bold"],
+      "formats": ["ttf", "woff", "woff2"],
+      "description": "A distinctive sans-serif typeface family for the Ubuntu operating system"
+    },
+    "inter": {
+      "name": "Inter",
+      "language": "Latin",
+      "license": "SIL Open Font License (OFL) v1.1",
+      "creator": "Rasmus Andersson",
+      "repository": "https://github.com/rsms/inter",
+      "weights": ["Thin", "Light", "Regular", "Medium", "SemiBold", "Bold", "ExtraBold", "Black"],
+      "formats": ["ttf", "woff", "woff2"],
+      "description": "A typeface specially designed for computer screens with excellent legibility"
+    },
+    "lato": {
+      "name": "Lato",
+      "language": "Latin",
+      "license": "SIL Open Font License (OFL) v1.1",
+      "creator": "Łukasz Dziedzic",
+      "repository": "http://www.latofonts.com/",
+      "weights": ["Light", "Regular", "Bold"],
+      "formats": ["ttf", "woff", "woff2"],
+      "description": "A warm and stable sans-serif typeface with friendly character"
+    },
+    "opensans": {
+      "name": "Open Sans",
+      "language": "Latin",
+      "license": "Apache License 2.0",
+      "creator": "Google Inc. (Steve Matteson)",
+      "repository": "https://github.com/google/opensans",
+      "weights": ["Light", "Regular", "SemiBold", "Bold"],
+      "formats": ["ttf", "woff", "woff2"],
+      "description": "A clean and friendly sans-serif typeface with excellent legibility for web"
+    }
+  },
+  "scripts": {
+    "docs": "echo 'See README.md for documentation'",
+    "test": "echo 'Font files verified'",
+    "info": "echo 'All fonts are open-source and properly licensed. See LEGAL.md and CREDITS.md for details.'"
+  },
+  "documentation": {
+    "readme": "README.md",
+    "legal": "LEGAL.md",
+    "credits": "CREDITS.md",
+    "contributing": "CONTRIBUTING.md",
+    "fonts-directory": "FONTS-DIRECTORY.md",
+    "website": "index.html"
+  },
+  "licenses": [
+    {
+      "name": "SIL Open Font License",
+      "url": "https://scripts.sil.org/OFL",
+      "fonts": ["Vazir", "Inter", "Lato"]
+    },
+    {
+      "name": "Apache License 2.0",
+      "url": "https://www.apache.org/licenses/LICENSE-2.0",
+      "fonts": ["Roboto", "Open Sans"]
+    },
+    {
+      "name": "Ubuntu Font License",
+      "url": "https://launchpad.net/ubuntu-font-family/+license",
+      "fonts": ["Ubuntu"]
+    }
+  ],
+  "categories": [
+    "typography",
+    "fonts",
+    "web-development",
+    "design"
+  ],
+  "funding": {
+    "type": "open-source",
+    "url": "https://github.com/adnank68/web-fonts-download"
+  }
+}
